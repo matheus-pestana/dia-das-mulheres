@@ -75,6 +75,11 @@ html {
 }
 
 #ad {
+    background: rgba( 255, 234, 247, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
     margin: 100px;
     text-align: center;
     display: flex;
@@ -94,6 +99,7 @@ html {
     background-color: #FE1CA4;
     border: solid 1px #FFEAF7;
     transition: .2s;
+    border-radius: 20px;
 }
 
 .ad_button:hover {
